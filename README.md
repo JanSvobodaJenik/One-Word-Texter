@@ -6,17 +6,15 @@ This is a script that can send any big text file word by word on WhatsApp insane
 
 # Installation
 
-First install Python 3 from from the Microsoft Store (Windows) or with your preferred package manager (Linux),
+First install Python 3 from the Microsoft Store (Windows) or with your preferred package manager (Linux),
 
-it should come pre-installed with MacOS.
-
-Then download [owt.py](https://github.com/JanSvobodaJenik/One-Word-Texter/releases/download/1.0/owt.py) and open your Windows PowerShell (Windows) or Terminal (Linux/MacOS)
-
-and type `pip install colorama selenium webdriver-manager`, then you can run owt.py by typing `python owt.py`.
+it should come pre-installed with MacOS, then download [owt.py](https://github.com/JanSvobodaJenik/One-Word-Texter/releases/download/1.1/owt.py).
 
 # Usage
 
 ![Screenshot](https://raw.githubusercontent.com/JanSvobodaJenik/One-Word-Texter/main/Screenshots/2.png)
+
+Run the script by typing `python owt.py` and let the script install all the requirements.
 
 Upon running the script, you'll be asked to run the command again along with some arguments.
 
@@ -42,7 +40,7 @@ Try running it with `python3` instead.
 
 Check that you have the browser installed on your PC.
 
-Check if the version of your browser is compatibile with the webdrivers.
+Check if the version of your browser is compatible with the webdrivers.
 
 Try using a different browser.
 
@@ -51,6 +49,12 @@ Try using a different browser.
 Check that you entered the title correctly, capital letters matter.
 
 If there are spaces in the name, put it in between two apostrophes (') or quotation marks (").
+
+### Can't install requirements
+
+Try to install them manually.
+
+Run the script with `-s` at the end every time.
 
 ### Colors don't work
 
